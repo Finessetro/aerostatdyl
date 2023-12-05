@@ -4,6 +4,7 @@
   "description": "-dle game where you guess the Pokémon based on its base stats",
   "main": "index.js",
   "dependencies": {
+    "@types/papaparse": "^5.3.14",
     "busboy": "^1.6.0",
     "caniuse-lite": "^1.0.30001565",
     "client-only": "^0.0.1",
@@ -15,9 +16,11 @@
     "nanoid": "^3.3.7",
     "next": "^14.0.3",
     "node-fetch": "^3.3.2",
+    "papaparse": "^5.4.1",
     "picocolors": "^1.0.0",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
+    "react-async": "^10.0.1",
     "react-dom": "^18.2.0",
     "scheduler": "^0.23.0",
     "source-map-js": "^1.0.2",
@@ -45,7 +48,7 @@
   },
   "homepage": "https://github.com/Finessetro/aerostatdyl#readme",
   "devDependencies": {
-    "@types/node": "20.10.2",
+    "@types/node": "^20.10.2",
     "@types/react": "18.2.39"
   }
 }
