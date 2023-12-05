@@ -7,7 +7,7 @@ var parse_err = null
 parse(pokemon_file.toString(), {
   complete: function(results) {
     pokemon_data = results.data
-    parse_err = results.error
+    parse_err = results.errors
   }
 })
 while (pokemon_data.length == 0 && parse_err == null) {}
